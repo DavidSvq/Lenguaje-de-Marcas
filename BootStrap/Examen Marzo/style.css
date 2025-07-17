@@ -1,0 +1,71 @@
+header{
+    font-size: 5vw;
+    text-align: center;
+    background-color:bisque ;
+    margin: 5%;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 5vw;
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: burlywood;
+}
+.contenedor{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenedores:hover{
+    scale: 1.5;
+}
+.contenedores{
+    width: 350px;
+    background-color:bisque ;
+    padding: 5px;
+    margin: 5%; 
+    text-align: center;  
+}
+.contenedorEnlace:hover{
+    scale: 1.5;
+}
+.contenedorEnlace{
+    width: 350px;
+    background-color:bisque ;
+    padding: 5px;
+    margin: 5%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 250px;
+}
+.contenedorProductos{
+    width: 800px;
+    display: flex;
+    flex-direction: block;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botonVolver{
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: bisque; 
+    margin-bottom: 5%;
+}
