@@ -1,0 +1,56 @@
+
+h1{
+    color: white;
+    background-color: red;
+    border: 1px solid white;
+    text-align: center;
+}
+
+/*body{
+    /*background-image: url(Imagenes/escudosevilla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+/*}*/
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: "10px" red;
+    text-decoration-color: blanchedalmond;
+    font-family: "fantasy";
+}
+
+thead th:nth-child(1){
+    width: 16.6%;
+}
+
+thead th:nth-child(2){
+    width: 16.6%;
+}
+
+thead th:nth-child(3){
+    width: 17%;
+}
+
+thead th:nth-child(4){
+    width: 16.6%;
+}
+
+thead th:nth-child(5){
+    width: 16.6%;
+}
+thead th:nth-child(6){
+    width: 16.6%;
+}
+
+th,
+td{
+    padding: 20px;
+    border: red 3px solid;
+}
+
+p{
+    background-color: red;
+    font-size: 100px;
+    text-align: center;
+}
