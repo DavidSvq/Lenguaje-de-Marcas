@@ -1,0 +1,54 @@
+body{
+    background-color: blueviolet;
+    color: white;
+}
+
+header{
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.turnos{
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+}
+
+.contenedorPrincipal{
+    width: 45%;
+    max-width: 360px;
+    max-height: 360px;
+    min-width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+}
+
+.contenedor{
+    width: 32%;
+    min-width: 110px;
+    min-height: 110px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#limpiarT{
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+}
+
+#turno{
+    font-size: 1.5rem;
+}

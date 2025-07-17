@@ -1,0 +1,107 @@
+/*ESTILO GENERAL*/
+body{
+    min-width: 435px;
+    min-height: 762px;
+    background-color: rgba(0, 89, 255, 0.466);
+    color: brown;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding: 0%;
+    margin: 0%;
+}
+
+#tg{
+    margin-left: 2%;
+}
+
+#inicio{
+    margin-bottom: 3%;
+}
+
+/*ESTILOS PARA JUEGO DE LAS PAREJAS*/
+.ini{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.c{
+    width: 80%;
+    height: 30%;
+    max-width: 645px;
+    min-width: 410px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: brown;
+    padding: 0%;
+}
+.container{
+    width: 10%;
+    max-width: 75px;
+    max-height: 72px;
+    border: 1px solid black;
+    margin: 1%;
+    padding: 0%;
+}
+
+h6{
+    padding-right: 5%;
+    font-size: 1rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    padding: 0%;
+}
+
+.reiniciar{
+    font-size: 1em;
+    margin: 1%;
+}
+
+/*ESTILOS PARA EL 3 EN RAYA*/
+.contenedorPrincipal{
+    width: 45%;
+    max-width: 360px;
+    max-height: 360px;
+    min-width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.contenedor{
+    width: 32%;
+    min-width: 110px;
+    min-height: 110px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.img3r{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+

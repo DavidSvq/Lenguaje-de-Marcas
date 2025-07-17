@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class ="container-fluid" style="height:500px;">
+        <div class="row justify-content-center">
+            <div class="col-3">
+                <h1>Piedra, Papel o Tijeras</h1>
+            </div>
+        </div>
+        <div class = "row justify-content-center mt-4">
+            <img class = "col-3 " onclick="jugar('piedra')" src="piedra.png"/>
+            <img class = "col-3" onclick="jugar('papel')" src="papel.png"/>
+            <img class = "col-3"  onclick="jugar('tijera')"src="tijera.png"/>
+        </div>
+        <div class = "row justify-content-center mt-4">
+            <div class="col-3 text-center">
+                <h1 id ="texto">1 ... 2 ... 3</h1>
+            </div>
+        </div>
+        <div class = "row justify-content-center h-25 mt-4">
+            <img id="pc" class = "col-3" src="interrogacion.jpeg"/>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

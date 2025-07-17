@@ -1,0 +1,36 @@
+.Principal{
+    width: 490px;
+    height: 410px;
+    align-items: center;
+    border: 1px solid;
+    margin-top: 50px;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: rgb(66, 64, 64) !important; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+button{
+    background-color: gray!important;
+    border-color: rgb(150, 119, 119) !important;
+    color: white;
+}
+.resultado{
+    background-color: bisque !important;
+    width: 400px; 
+    height: 50px; 
+    border: 1px solid; 
+    margin-left: 29px; 
+    margin-top: 10px; 
+    background-color: white;
+    text-align: end;
+    padding-top: 15px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,34 @@
+#listaTareas{
+    padding: 3px;
+    margin: 10px;
+    border: 1px solid #c30bdb;
+    font-size: 26px;
+}
+
+#listaTareas div{
+    display: flex;
+    text-align: center;
+}
+
+#listaTareas li {
+    border-bottom: 1px solid #ec9a9a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#listaTareas button{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    
+}
+
+.tachado{
+    text-decoration: line-through;
+    color: blue;
+}
