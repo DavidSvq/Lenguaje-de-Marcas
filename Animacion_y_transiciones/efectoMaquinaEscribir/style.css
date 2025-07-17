@@ -1,0 +1,49 @@
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+.divCentral{
+    width: 550px;
+    height: 550px;
+    background-color: black;
+    color: white;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    display: block;
+    font-size: 3vw;
+    font-family: monospace;
+    white-space: nowrap;
+    width: 11ch;
+    animation: letreado 2s steps(11);
+    overflow: hidden;
+}
+.divCursor{
+    width: 0px;
+    height: 40px;
+    border: 2px solid white;
+}
+
+.parpadea{
+    animation-name: parpadeo;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes parpadeo{
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes letreado{
+    from{width: 0;}
+    
+}
+        

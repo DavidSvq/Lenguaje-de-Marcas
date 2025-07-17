@@ -1,0 +1,59 @@
+
+.divReloj{
+    background-image:url(Imagenes/relojSinManillas.png);
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    border: 5px solid blueviolet;
+    border-radius: 50%;
+    position: relative; /* Para posicionar la manecilla */
+}
+.divPrincipal{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to top, white, black);
+}
+.divManecillaSegundero{
+    width: 50%;
+    height: 3px;
+    background-color: rgb(10, 127, 196);
+    position: absolute; /*Para que se pegue al contendor padre --> arriba izquierda.*/
+    transform-origin: 0% 100%; /* Punto de rotación en la base */
+    bottom: 50%; /* Centrada verticalmente */
+    left: 50%; /* Centrada horizontalmente */
+    animation: giro 60s linear infinite;
+}
+
+.divManecillaMinutero{
+    width: 45%;
+    height: 4px;
+    background-color: rgb(201, 214, 11);
+    position: absolute; /*Para que se pegue al contendor padre arriba izquierda. En este 
+    caso reciben la herencia del display: flex y sus atributos en el contenedor padre*/
+    transform-origin: 0.1% 100%; /* Punto de rotación en la base */
+    bottom: 50%; /* Centrada verticalmente */
+    left: 50%; /* Centrada horizontalmente */
+    animation: giro 3595s linear infinite;
+}
+.divManecillaHora{
+    width: 35%;
+    height: 5px;
+    background-color: black;
+    position: absolute; /*Para que se pegue al contendor padre arriba izquierda. En este 
+    caso reciben la herencia del display: flex y sus atributos en el contenedor padre*/
+    transform-origin: 0% 100%; /* Punto de rotación en la base */
+    bottom: 50%; /* Centrada verticalmente */
+    left: 50%; /* Centrada horizontalmente */
+    animation: giro 216000s linear infinite;
+}
+@keyframes giro{
+    from{
+        transform: rotate(-90deg);
+    }
+    to{
+        transform: rotate(270deg);
+    }
+}

@@ -1,0 +1,83 @@
+.principal{
+    width: 1000px;
+    height: 800px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, rgb(27, 155, 187), rgb(112, 10, 112));
+}
+.campana1{
+    transform: rotate(120deg);
+    animation: moverCampana1 1s linear;
+    animation-iteration-count: 3;
+    transition: color 2s linear,  transform 1s linear;
+}
+
+.campana1:hover{
+    animation: moverCampana3 3s linear 2;
+    color: white;
+    opacity: .50;
+    /*transform: rotate(240deg) scale(1.5) translate(150px, -150px);
+    /*transform: rotate(240deg);*/
+}
+.campana2{
+animation: moverCampana2 2s;
+animation-timing-function: linear;
+animation-iteration-count: 3;
+/*transform: scale(1.5) translate(50px, -200px);*/
+transition: transform 10s;
+}
+
+.campana4{
+    transform: rotate(-120deg);
+    animation: moverCampana3 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.campana3{
+    transform: rotate(180deg);
+    animation: moverCampana2 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+}
+
+@keyframes moverCampana1{
+    from{
+        transform: rotate(120deg) ;
+    }
+    to{
+        transform: rotate(0deg) ;
+    }
+}
+
+@keyframes moverCampana2{
+    from{
+        /*transform: rotate(0deg);*/
+        transform: rotate(0deg) scale(1.5) translate(50px, -200px);
+    }
+    to{
+        /*transform: rotate(240deg) ;*/
+        transform: rotate(240deg) scale(-1.5) translate(-50px, 200px)
+        
+    }
+}
+
+@keyframes moverCampana3{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg) ;
+    }
+}
+
+@keyframes moverCampana4{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-240deg) ;
+    }
+}
