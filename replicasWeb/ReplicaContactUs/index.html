@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <form action="">
+        <header>Contact Us</header>
+        <fieldset>
+            <legend>Personal Data</legend>
+        <div class="principal">
+            <div class="campos">
+                <p>First Name * </p>
+            <input class="campo_a_insertar" type="text" size ="25%">
+            </div>
+            <img class="imgPuntero" src="imagen/icons8-cursor-48.png" alt="">
+            <div class="campos">
+                <p>Last Name * </p>
+                <input type="text" size ="25%">
+            </div>
+        </div>
+        <div class="principal">
+            <div class="campos">
+                <p>Email Address * </p>
+                <input type="text" size ="50%">
+                <img class="imgAjustes" src="imagen/iconoAjustes.png" alt="">
+            </div>
+        </div>
+        </fieldset>
+        <div class="principal">
+            <div class="campos">
+                <label for="query">Query Type *</label>
+                <select name="query" id="query">
+                    <option value="A">ABC</option>
+                    <option value="B">BCD</option>
+                    <option value="C">CDF</option>
+                    <option value="D">DFG</option>
+                </select>
+                <!--<p>Query Type * </p>
+                <input type="text" size ="29%"> -->
+            </div>
+            <div class="campos">
+                <input class="campoExperimental" type="text" size ="29%">
+            </div>
+        </div>
+        <div class="textarea">
+            <p>Message *</p>
+            <textarea name="Message" id="" style="vertical-align: top;" name="Message"  rows="5" cols="65"></textarea>
+            <p> <input type="radio" name="1"><label for="1">I consent to being contacted by the team *</label></p>
+            <p> <input type="radio" name="1"><label for="1">I am not consent to being contacted by the team *</label></p>
+            <input class="submit" type="submit" value="Submit" >
+        </div>
+    </form>
+</body>
+</html>
