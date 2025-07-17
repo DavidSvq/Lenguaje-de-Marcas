@@ -1,0 +1,249 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-left: 1%;
+    border: 1px solid lightgray;
+    color: gray;
+    padding-left: 2px;
+    align-items: center;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+}
+/*### Contenedor Principal ###*/
+.divPrincipal{
+    display: flex;
+}
+
+/*### Contenedor Vertical Izquierdo*/
+.divSecundarioIzq{
+    width: 300px;
+}
+ /*### Contenedor Cabezera ###*/
+#divHeader{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    align-items: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 12%;
+    padding-bottom: 1%;
+    margin: 0px;
+}
+/*### Contenedor Circulos ###*/
+.divCirculo{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/*### Iconos ###*/
+.iconos{
+    width: 24px;
+    height: 24px;
+    margin-left: 4px;
+}
+.iconosAsignaturas{
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    padding-right: 12px;
+}
+
+/*######Colores Circulos######*/
+#colorCirculoRojo{
+    background-color: darkred;
+    text-align: center;
+    align-content: center;
+}
+#colorCirculoAmarillo{
+    background-color: rgb(194,100,1);
+    text-align: center;
+    align-content: center;
+}
+#colorCirculoAzul{
+    background-color: rgb(25,103,210);
+    align-content: center;
+}
+#colorCirculoFucsia{
+    background-color: rgb(184,6,114);
+    text-align: center;
+    align-content: center;
+}
+#colorCirculoMorado{
+    background-color: rgb(118,39,187);
+    text-align: center;
+    align-content: center;
+}
+#colorCirculoVerdeAgua{
+    background-color: rgb(0,123,131);
+    text-align: center;
+    align-content: center;
+}
+/*######## FIN COLORES CIRCULO ########*/
+
+/*### Contener Vertical Izquierdo ###*/
+.divIzq{
+    border: 1px solid lightgray;
+    margin: -1px;
+    padding-left: 12px;
+    
+}
+.divIzqInterior{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    font-size: .875rem;
+    margin-left: 3px;
+    text-align: center;
+
+}
+.divIzqIntInt{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 5px;
+    color: black;
+    text-align: left;
+    text-justify: distribute;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+}
+.divIzqIntInt2{
+    padding-top: 5px;
+    color: black;
+    text-align: left;
+    text-justify: distribute;
+}
+#pDam{
+    font-size:small;
+    color: gray;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+/*### FIN Contenedor Vertical Izquierdo ###*/
+
+/*### Contenedor Derecho ###*/
+.divDcho{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;  
+}
+.divDchoAsignaturas{
+    width: 302px;
+    height: 296px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.divSuperiorAsignaturas{
+    height: 33%;
+    width: 302px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.divInferiorAsignaturas{
+    height: 57px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.divIconosAsignaturas{
+    margin: 15px;
+}
+.divGradienteAsignaturas{
+    height: 33%;
+    width: 302px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: linear-gradient(to right,rgba(32,33,36,0) 60%,rgba(32,33,36,.88));
+    position: relative;
+    top: -40%;
+    opacity: .88;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*### FIN Contenedor Derecho ###*/
+
+/*### Fondos y Textos Contenedor Derecho ###*/
+#fondoAsignaturaAzul{
+    background-image: url(Imagenes/a.png);
+    background-position: initial;
+    background-size: 410px;
+}
+
+#fondoAsignaturaAnaranjado{
+    background-image: url(Imagenes/sosten.png);
+    background-position: initial;
+    background-size: 410px;
+}
+#fondoAsignaturaGris{
+    background-image: url(Imagenes/lenguaje\ marcas.png);
+    background-position: initial;
+    background-size: 410px;
+}
+#fondoAsignaturaEntorno{
+    background-color: rgb(75, 21, 122);
+    background-image: url(Imagenes/entorno.png);
+    background-size: 410px;
+    background-position: initial;
+    background-blend-mode: overlay;    
+}
+#fondoAsignaturaVerde{
+    background-image: url(Imagenes/verde.png);
+    background-size: 410px;
+    background-position: initial;
+}
+#fondoAsignaturaPersonaPC{
+    background-image: url(Imagenes/program.png);
+    background-size: 410px;
+    background-position: initial;
+}
+#fondoAsignaturaAzulClaro{
+    background-image: url(Imagenes/azul.png);
+    background-size: 410px;
+    background-position: initial;
+}
+.textoNombreAsignatura{
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.textoNombreProfesor{
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color:#fff;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+#PuntosVerticales{
+    fill: white;
+    padding-right: 15px;
+}
+/*### FIN Fondos y Textos Contenedor Derecho ###*/
+
