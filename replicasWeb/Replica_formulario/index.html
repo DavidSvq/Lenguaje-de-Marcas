@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <div class="p1">
+                <p>DNI <input type="text"> - <input type="text" size="1%"> Sexo<input type="radio"  name="Sexo" value="Hombre">Hombre <input type="radio" name="Sexo" value="Mujer">Mujer</p>
+            </div>
+            <p>Nombre* <input type="text" size="45%"></p>
+            <p>Apellidos <input type="text" size="85%"></p>
+            <p>**Email* <input type="email" size="45%"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Dirección</legend>
+            <p>Calle/Avda <input type="text"></p>
+            <p>Población* <input type="text"> Provincia <select name="especialidad" required>
+                <option value="">--Selecciona una opción--</option>
+                <option value="Sevilla">Sevilla</option>
+                <option value="Huelva">Huelva</option>
+                <option value="Cadiz">Cadiz</option>
+                <option value="Cordoba">Cordoba</option>
+            </select></p>
+        </fieldset>
+        <fieldset>
+            <legend>Práctica en grupo</legend>
+            <p>Archivo <input type="text"><input type="submit" value="Browrse"></p>
+            <p>Archivo comprimido <input type="checkbox" value=""> Archivo encriptado <input type="checkbox" value=""></p>
+            <p>Descripción de la Práctica<textarea style="vertical-align: top;" name="comentarios"  rows="5" cols="100"></textarea></p>
+            <p style="display: grid; margin: auto; place-items: center;" ><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
