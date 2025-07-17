@@ -1,0 +1,91 @@
+@import url('https://fonts.google.com/specimen/Josefin+Sans');
+body{
+    width: 1440;
+    height: 800;
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.div1{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.div2{
+    background-image: url("images/bg-pattern-desktop.svg");
+    width: 60%;
+}
+.div3{
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+}
+.div4{
+    margin-bottom: 15%;
+}
+.div5{
+    border-style: solid;
+    border-width: 1px ;
+    border-color:hsl(0, 36%, 70%);
+    border-radius: 50px;
+    width: 40%;
+    height: 20%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: right;
+}
+.div6{
+    border-style: solid;
+    border-width: 1px ;
+    border-color:hsl(0, 36%, 70%);
+    border-radius: 50px;
+    width: 70px;
+    height: 35px;
+    background-color: hsl(0, 93%, 68%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    width: 130px;
+    height: 45px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.img2{
+    width: 100%;
+}
+.img3{
+    width: 40%;
+    margin-left: 20%;
+}
+.p1{
+    margin-left: 20%;
+    font-size: 75px;
+    font-family: Josefin Sans;
+    padding: 0px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.p2{
+    margin-left: 20%;
+    font-size: 75px;
+    padding: 0px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: hsl(0, 36%, 70%);
+    font-family: Josefin Sans;
+}
+.p3{
+    margin-left: 20%;
+    margin-right: 43%;
+    font-size: 16px;
+    color: hsl(0, 36%, 70%);
+}
